@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html onclick="mouseOnClick(event)">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title> game 2</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- <link rel="stylesheet" href=""> -->
+        <style>
+
+            /* body{
+                background-image: url('img1game2.jpg');
+            } */
+            #scoreboard{
+                background-color: rgb(68, 221, 183);
+                /* display: n; */
+    position: fixed;
+    right: 0;
+    top: 0;
+    width: 100px;
+    height: 100px;
+}            
+#game{
+    /* display: none; */
+    background-image:"images.jpg" ;
+}
+/*#div{
+ display: none; 
+}*/
+            /* .div{
+                z-index: 2;
+               width: 10px;
+               background-color: red;
+            } */
+        </style>
+    </head>
+    <body>
+        <div id="div">
+            <div id="game">
+                <canvas></canvas>
+            </div>
+            <div id="scoreboard" height="10px">SCORE:
+                <input id="score" type="number"><br>
+                COINS:<input id="coins" type="number">
+            </div>
+        
+            </div>
+        <script src="script.js"></script>
+    </body>
+</html>
